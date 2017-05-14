@@ -10,5 +10,7 @@
 
 Linux系统VMware桥接上网的方法
 
-1. 打开虚拟机
-<img src="InternetConnection/image/1.jpg">
+1. 打开虚拟网络编辑器。<br>
+<img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/1.jpg?raw=true">
+2.这里是安装虚拟机后自动生成的网络配置，点击移除。<br>
+<img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/2.jpg?raw=true">
