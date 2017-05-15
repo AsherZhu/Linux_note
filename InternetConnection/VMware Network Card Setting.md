@@ -18,7 +18,7 @@ Linux系统VMware桥接上网的方法
 <img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/3.jpg?raw=true"><br>
 4.点击添加网络，点击确定。<br>
 <img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/4.jpg?raw=true"><br>
-5.选择桥接模式，点击确定。*桥接模式：把虚拟机看成和主机在同一个网段的另一台物理主机*<br>
+5.选择桥接模式，点击确定。```桥接模式：把虚拟机看成和主机在同一个网段的另一台物理主机```<br>
 <img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/5.jpg?raw=true"><br>
 6.再次代开虚拟机设置。<br>
 <img src="https://github.com/ZhuShuai1992/Linux_Study/blob/master/InternetConnection/image/6.jpg?raw=true"><br>
