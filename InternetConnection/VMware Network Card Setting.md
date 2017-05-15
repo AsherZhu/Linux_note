@@ -1,4 +1,4 @@
-##Linux系统VMware桥接上网的方法
+## Linux系统VMware桥接上网的方法
 
 在安装部署VMware虚拟机时，常常需要用到桥接模式上网。<br>
 核心有两个部分：<br>
