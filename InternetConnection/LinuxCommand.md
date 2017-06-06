@@ -1,6 +1,6 @@
 ## Linux Command
 #### Update & upgrade & Install & remove
-未授权root权限的用户需要在前面加 `sudo` 
+未授权root权限的用户需要在`apt-get`前面加 `sudo` 
 > apt-get update 
 
 > apt-get upgrade
@@ -8,6 +8,11 @@
 > apt-get Install appName
 
 > apt-get remove appName
+
+> wget url `下载程序压缩包到当前目录`
+
+> tar xvf fileName `解压缩程序到当前目录`
+
 #### Directory Operation
 > mkdir dirName1 dirName2 dirName3 `创建单个或者多个目录`
 
