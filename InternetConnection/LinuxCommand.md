@@ -13,6 +13,8 @@
 
 > tar xvf fileName `解压缩程序到当前目录`
 
+> dpkg --get-selections | grep appName `相关软件安装信息`
+
 #### Directory Operation
 > mkdir dirName1 dirName2 dirName3 `创建单个或者多个目录`
 
