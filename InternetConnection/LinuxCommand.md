@@ -15,18 +15,24 @@
 
 > dpkg --get-selections | grep appName `相关软件安装信息`
 
+#### file
+
+> vim fileName `新建文件`
+
+> mv oldName newName `文件重命名`
+
 #### Directory Operation
 > mkdir dirName1 dirName2 dirName3 `创建单个或者多个目录`
 
 > rmdir dirName1 dirName2 dirName3 `删除单个或者多个目录`
 
-如果文件非空的话用以下命令删除<br>
+`如果文件非空的话用以下命令删除`
 
 >rm -rf dirName `-r 向下递归` `-f 直接强行删除`
 
 > cd dirName\dirName `指定进入目录下`
 
-#### program
+#### Program
 
 > ps -ef `查询正在运行的进程`
 
