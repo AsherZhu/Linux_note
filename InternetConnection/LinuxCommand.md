@@ -32,3 +32,6 @@
 
 > kill -s 9 PID `杀死进程`
 
+#### Run
+
+> nohup python run.py > botlog.log 2>&1 &
