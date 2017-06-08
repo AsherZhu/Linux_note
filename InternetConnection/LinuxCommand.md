@@ -34,4 +34,4 @@
 
 #### Run
 
-> nohup python run.py > botlog.log 2>&1 &
+> nohup python run.py > botlog.log 2>&1 & `后台运行并且写入运行日志到.log文件`
