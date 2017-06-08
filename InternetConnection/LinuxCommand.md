@@ -15,7 +15,7 @@
 
 > dpkg --get-selections | grep appName `相关软件安装信息`
 
-#### file
+#### File
 
 > vim fileName `新建文件`
 
@@ -33,6 +33,14 @@
 #### Program
 
 > ps -ef `查询正在运行的进程`
+
+> ctrl + z `将在前台执行的命令放到后台 并暂停`
+
+> jobs `查看当前有多少在后台运行的命令`
+
+> fg `将后台中的命令调至前台继续运行` `如果后台中有多个命令用 fg %jobnumber 通过job命令查询到的序列好（非PID）`
+
+> bg `将一个在后台暂停的命令，变成继续执行` `如果后台中有多个命令用 fg %jobnumber`
 
 > kill -s 9 PID `杀死进程`
 
