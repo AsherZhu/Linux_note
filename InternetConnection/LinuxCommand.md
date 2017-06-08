@@ -26,3 +26,9 @@
 
 > cd dirName\dirName `指定进入目录下`
 
+#### program
+
+> ps -ef `查询正在运行的进程`
+
+> $ kill -s 9 PID `杀死进程`
+
