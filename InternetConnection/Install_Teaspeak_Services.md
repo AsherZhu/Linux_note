@@ -21,10 +21,10 @@ sudo apt-get update
 > cd /etc/init.d
 
 > sudo vim ts3
-####! /bin/bash
-> cd /home/USERNAME/teamspeak3-server_linux_amd64
 
-> ./ts3server_startscript.sh start
+> \#! /bin/bash<br>
+ cd /.../teamspeak3-server_linux...<br>
+ ./ts3server_startscript.sh start
 
 > sudo chmod +x /etc/init.d/ts3
 
