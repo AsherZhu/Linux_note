@@ -2,7 +2,7 @@
 
 
 #### Update
-sudo apt-get update
+> sudo apt-get update
  
 #### Setup
 32bit
