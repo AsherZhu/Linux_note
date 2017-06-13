@@ -4,7 +4,7 @@
 #### Update
 > sudo apt-get update
  
-#### Setup  [Server DownLoad](https://www.teamspeak.com/downloads.html#server "NEW URL")
+#### Setup  [Server DownLoad](https://www.teamspeak.com/downloads.html#server "Download NEW URL")
 32bit
 > wget http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.13.6/teamspeak3-server_linux_x86-3.0.13.6.tar.bz2
 
