@@ -26,7 +26,9 @@
 
 > rmdir dirName1 dirName2 dirName3 `删除单个或者多个目录`
 
->rm -rf dirName `-r 向下递归` `-f 直接强行删除` `如果文件非空的话此命令删除`
+> rm -rf dirName `-r 向下递归` `-f 直接强行删除` `如果文件非空的话此命令删除`
+
+> rm -rf fileName/* `递归删除 fileName下所有的文件&目录`
 
 > cd dirName\dirName `指定进入目录下`
 
