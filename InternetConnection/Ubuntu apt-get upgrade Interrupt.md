@@ -49,4 +49,4 @@ E: Unable to lock the administration directory (/var/lib/dpkg/), is another proc
 
 > apt-get update
 
-[转自](http://www.cnblogs.com/cj2014/p/4688137.html "sudo apt-get upgrade 不成功遇到问题")
+[转修改自](http://www.cnblogs.com/cj2014/p/4688137.html "sudo apt-get upgrade 不成功遇到问题")
