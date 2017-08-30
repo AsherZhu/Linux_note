@@ -54,7 +54,7 @@ Making the auto startup script can break your Ubuntu install. Please double chec
 
 
 
-##Other
+## Other
 * backup db
 `ts3server.sqlitedb` file
 
