@@ -51,3 +51,15 @@
 The command `sudo update-rc.d` ts3 defaults may return a warning. This is to be expected.
 After a restart the command `./ts3server_startscript` status may show that the server is dead. This is a bug and the server is online.
 Making the auto startup script can break your Ubuntu install. Please double check your commands before restarting the server.
+
+
+#### crack
+
+Change hosts file
+> Linux: /etc/hosts<br>
+Windows: C:\Windows\System32\drivers\etc\hosts
+  
+>127.0.0.1 accounting.teamspeak.com<br>
+127.0.0.1 backupaccounting.teamspeak.com<br>
+127.0.0.1 ipcheck.teamspeak.com<br>
+127.0.0.1 weblist.teamspeak.com #(only if you don't want to be on the weblist)
