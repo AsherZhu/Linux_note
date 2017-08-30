@@ -53,9 +53,14 @@ After a restart the command `./ts3server_startscript` status may show that the s
 Making the auto startup script can break your Ubuntu install. Please double check your commands before restarting the server.
 
 
-#### crack
 
-Change hosts file
+##Other
+* backup db
+`ts3server.sqlitedb` file
+
+
+crack
+* Change hosts file
 > Linux: /etc/hosts<br>
 Windows: C:\Windows\System32\drivers\etc\hosts
   
