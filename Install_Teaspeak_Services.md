@@ -61,10 +61,32 @@ Making the auto startup script can break your Ubuntu install. Please double chec
 
 crack
 * Change hosts file
-> Linux: /etc/hosts<br>
-Windows: C:\Windows\System32\drivers\etc\hosts
-  
->127.0.0.1 accounting.teamspeak.com<br>
+1. > Linux: /etc/hosts<br>
+Windows: C:\Windows\System32\drivers\etc\hosts<br>
+127.0.0.1 accounting.teamspeak.com<br>
 127.0.0.1 backupaccounting.teamspeak.com<br>
 127.0.0.1 ipcheck.teamspeak.com<br>
 127.0.0.1 weblist.teamspeak.com #(only if you don't want to be on the weblist)
+
+On Linux: 
+> First step: "./AccountingServerEmulator"
+> Second step: "./ts3server_startscript.sh start"
+
+On Windows:
+> First step: "AccountingServerEmulator"
+> Second step: "ts3server.exe"
+
+#### Auto Start Script
+> cd /etc/init.d
+
+> sudo vim ts3
+
+> \#! /bin/bash<br>
+  cd /home/ubuntu/application/teamspeak3-server_linux_amd64<br>
+  ./AccountingServerEmulator-Linux<br>
+  cd /home/ubuntu/application/teamspeak3-server_linux_amd64<br>
+  ./ts3server_startscript.sh start
+
+> sudo chmod +x /etc/init.d/ts3
+
+> sudo update-rc.d ts3 defaults
