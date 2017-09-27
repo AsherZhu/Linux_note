@@ -60,6 +60,8 @@ Making the auto startup script can break your Ubuntu install. Please double chec
 
 
 crack
+
+
 * Change hosts file
 1. > Linux: /etc/hosts<br>
 Windows: C:\Windows\System32\drivers\etc\hosts<br>
