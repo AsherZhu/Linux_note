@@ -91,4 +91,4 @@ On Windows:
 
 > sudo chmod +x /etc/init.d/ts3
 
-> sudo update-rc.d ts3 defaultsh
+> sudo update-rc.d ts3 defaults
