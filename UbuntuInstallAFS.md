@@ -2,6 +2,7 @@
 
 ---
 #### [ArchiSteamFarm](https://github.com/JustArchi/ArchiSteamFarm/)
+
 &emsp;&emsp;ASF是一个C＃应用程序，允许您同时使用多个Steam帐户来获取steam卡片。ASF不需要任何Steam客户端在后台运行，不会启动任何额外的流程，并立即处理所添加的的Steam帐户。除此之外，它还可以在服务器或其他无桌面计算机上运行，​​并具有完整的跨操作系统支持，可以在任何支持.NET Core的操作系统上启动，例如Windows，Linux或OS X。<br>
 &emsp;&emsp;ASF不要求也不会以任何方式干扰Steam客户端。除此之外，它不要求独占访问给定的帐户，这意味着您可以在Steam客户端使用您的主帐户，并使用ASF同时空闲同一个帐户。如果您决定启动游戏，则ASF将断开连接，并在完成游戏后恢复空闲状态，并在整个过程中尽可能透明。
 ---
