@@ -64,3 +64,5 @@
       > cd /root/application/ASF-linux-x64/
    7. 执行`./ArchiSteamFarm`启动ASF
       > ./ArchiSteamFarm
+      
+      如果开启了手机令牌，会提示输入令牌验证码
