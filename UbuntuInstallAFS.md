@@ -45,7 +45,7 @@
 1. 需要安装.net运行环境，因为不同linux发行版安装略有差异，所以我们需要最权威的微软官网教程[Prerequisites for .NET Core on Linux](https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x#tabpanel_-r1y2MrINK_netcore2x)，这里我们要安装的是.NET Core 2.0。
 2. 开始安装ASF
    1. 在作者[GitHub](https://github.com/JustArchi/ArchiSteamFarm/releases)下载对应版本的ASF.zip。`下面我就用我写下这篇笔记时的最新版为例`
-      > wget https://github.com/JustArchi/ArchiSteamFarm/releases/download/3.0.4.4/ASF-linux-x64.zip
+      > wget https://github.com/JustArchi/ArchiSteamFarm/releases/download/3.0.4.7/ASF-linux-x64.zip
    2. 解压缩到文件夹
       > unzip ./ASF-linux-x64.zip -d /root/application/ASF-linux-x64/
    3. cd进解压缩的目录
